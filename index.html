@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Premier League Match Predictor</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+      background-color: #f7f7f7;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    select, button {
+      padding: 10px;
+      margin: 10px;
+      font-size: 1em;
+    }
+
+    #result {
+      margin-top: 30px;
+      font-size: 1.5em;
+      color: #2c3e50;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Premier League Match Predictor</h1>
+
+  <select id="team1">
+    <option value="">Select Team 1</option>
+    <option>Man City</option>
+    <option>Arsenal</option>
+    <option>Liverpool</option>
+    <option>Aston Villa</option>
+    <option>Tottenham</option>
+    <option>Chelsea</option>
+    <option>Newcastle</option>
+    <option>Man United</option>
+    <option>West Ham</option>
+    <option>Crystal Palace</option>
+    <option>Brighton</option>
+    <option>Bournemouth</option>
+    <option>Fulham</option>
+    <option>Wolves</option>
+    <option>Everton</option>
+    <option>Brentford</option>
+    <option>Nottingham Forest</option>
+    <option>Luton Town</option>
+    <option>Burnley</option>
+    <option>Sheffield United</option>
+  </select>
+
+  <select id="team2">
+    <option value="">Select Team 2</option>
+    <option>Man City</option>
+    <option>Arsenal</option>
+    <option>Liverpool</option>
+    <option>Aston Villa</option>
+    <option>Tottenham</option>
+    <option>Chelsea</option>
+    <option>Newcastle</option>
+    <option>Man United</option>
+    <option>West Ham</option>
+    <option>Crystal Palace</option>
+    <option>Brighton</option>
+    <option>Bournemouth</option>
+    <option>Fulham</option>
+    <option>Wolves</option>
+    <option>Everton</option>
+    <option>Brentford</option>
+    <option>Nottingham Forest</option>
+    <option>Luton Town</option>
+    <option>Burnley</option>
+    <option>Sheffield United</option>
+  </select>
+
+  <br>
+  <button onclick="predictWinner()">Predict Winner</button>
+
+  <div id="result"></div>
+
+  <script src="predictor.js"></script>
+  <link rel="stylesheet" href="style.css">
+</body>
+</html>
