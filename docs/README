@@ -1,1 +1,41 @@
+# 🏆 Premier League Match Predictor
+
+This is a simple web-based application that predicts the winner of a Premier League match based on user-selected teams. The prediction is displayed dynamically with a clean interface and themed background.
+
+## 🚀 Features
+
+- Dropdowns for selecting two Premier League teams  
+- "Predict Winner" button triggers result display  
+- Displays predicted winner with styled result text  
+- Custom background image support  
+- Easily customizable with logos and real stats
+
+## 📁 Folder Structure
+
+```
+/your-project-folder
+│
+├── index.html          # Main HTML page
+├── style.css           # Stylesheet for layout and design
+├── predictor.js        # JavaScript logic for predicting the winner
+├── background.jpg      # Website background image
+├── logos/              # (Optional) Folder for team logos
+└── README.md           # This documentation file
+```
+
+## 📸 Screenshot
+
+> _(Add a screenshot of your site here if you'd like)_
+
+## ⚙️ How to Run
+
+1. Download or clone the project files  
+2. Make sure `index.html`, `style.css`, and `predictor.js` are in the same folder  
+3. Open `index.html` in your web browser  
+4. Select two teams and click **"Predict Winner"**
+
+## ✏️ Customization
+
+- **Change Background**: Replace `background.jpg` with your own image  
+- **Upda**
 
